@@ -1,0 +1,241 @@
+2021-06-24 20:29:31,437 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-24 20:29:31,486 [main] INFO  com.learnjava.PaymentServiceApplication            - Starting PaymentServiceApplication using Java 1.8.0_281 on LAPTOP-IBR4JETC with PID 25036 (E:\springboot\centralizelogging-elk-stack\payment-service\target\classes started by sheka in E:\springboot\centralizelogging-elk-stack\payment-service)
+2021-06-24 20:29:31,487 [main] INFO  com.learnjava.PaymentServiceApplication            - No active profile set, falling back to default profiles: default
+2021-06-24 20:29:34,920 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-24 20:29:35,281 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 340 ms. Found 1 JPA repository interfaces.
+2021-06-24 20:29:36,478 [main] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=6d3fd36f-6b76-3783-8a6d-443e2266ae4b
+2021-06-24 20:29:39,592 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9191 (http)
+2021-06-24 20:29:39,612 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9191"]
+2021-06-24 20:29:39,614 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-06-24 20:29:39,614 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-24 20:29:40,436 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-06-24 20:29:40,436 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 8775 ms
+2021-06-24 20:29:40,565 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-06-24 20:29:41,197 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-06-24 20:29:41,224 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:54755a35-9ced-4e47-808b-7aa271725f4c'
+2021-06-24 20:29:44,580 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-24 20:29:44,794 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-24 20:29:45,349 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-24 20:29:45,829 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-24 20:29:47,756 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-24 20:29:47,788 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-24 20:29:49,253 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-24 20:29:51,955 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-06-24 20:29:53,350 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-06-24 20:29:53,599 [main] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2021-06-24 20:29:54,272 [main] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2021-06-24 20:29:54,285 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 20:29:54,350 [main] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2021-06-24 20:29:54,350 [main] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2021-06-24 20:29:54,350 [main] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2021-06-24 20:29:54,351 [main] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2021-06-24 20:29:54,351 [main] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2021-06-24 20:29:54,351 [main] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2021-06-24 20:29:54,351 [main] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2021-06-24 20:29:56,091 [main] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2021-06-24 20:29:56,095 [main] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2021-06-24 20:29:56,101 [main] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-24 20:29:56,111 [main] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1624546796108 with initial instances count: 0
+2021-06-24 20:29:56,131 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application PAYMENT-SERVICE with eureka with status UP
+2021-06-24 20:29:56,132 [main] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1624546796132, current=UP, previous=STARTING]
+2021-06-24 20:29:56,135 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_PAYMENT-SERVICE/LAPTOP-IBR4JETC:payment-service:9191: registering service...
+2021-06-24 20:29:56,137 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9191"]
+2021-06-24 20:29:56,689 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9191 (http) with context path ''
+2021-06-24 20:29:56,703 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 9191
+2021-06-24 20:29:56,736 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_PAYMENT-SERVICE/LAPTOP-IBR4JETC:payment-service:9191 - registration status: 204
+2021-06-24 20:29:57,638 [main] INFO  com.learnjava.PaymentServiceApplication            - Started PaymentServiceApplication in 28.746 seconds (JVM running for 31.29)
+2021-06-24 20:30:26,100 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2021-06-24 20:30:26,101 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2021-06-24 20:30:26,101 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2021-06-24 20:30:26,101 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2021-06-24 20:30:26,101 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2021-06-24 20:30:26,102 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: false
+2021-06-24 20:30:26,102 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2021-06-24 20:30:26,139 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2021-06-24 20:34:54,358 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 20:39:54,359 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 20:44:54,375 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 20:49:54,379 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 20:54:54,386 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 20:59:54,403 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:04:54,406 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:09:54,422 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:14:54,437 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:19:54,447 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:24:54,452 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:29:54,462 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:34:54,476 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:39:54,478 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:44:54,489 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:49:54,503 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:54:54,512 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 21:59:54,515 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:04:54,516 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:09:54,529 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:14:54,532 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:19:54,542 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:24:54,558 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:29:54,561 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:34:54,578 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:39:54,587 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:44:54,589 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:49:54,591 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:51:41,245 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-24 22:51:41,297 [main] INFO  com.learnjava.PaymentServiceApplication            - Starting PaymentServiceApplication using Java 1.8.0_281 on LAPTOP-IBR4JETC with PID 14184 (E:\springboot\centralizelogging-elk-stack\payment-service\target\classes started by sheka in E:\springboot\centralizelogging-elk-stack\payment-service)
+2021-06-24 22:51:41,315 [main] INFO  com.learnjava.PaymentServiceApplication            - No active profile set, falling back to default profiles: default
+2021-06-24 22:51:44,082 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-24 22:51:44,436 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 333 ms. Found 1 JPA repository interfaces.
+2021-06-24 22:51:45,664 [main] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=6d3fd36f-6b76-3783-8a6d-443e2266ae4b
+2021-06-24 22:51:48,309 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9191 (http)
+2021-06-24 22:51:48,335 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9191"]
+2021-06-24 22:51:48,336 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-06-24 22:51:48,339 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-24 22:51:48,769 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-06-24 22:51:48,770 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 7271 ms
+2021-06-24 22:51:48,877 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-06-24 22:51:49,422 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-06-24 22:51:49,435 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:7123d31b-5c00-4b0e-82c5-a50a5d721e26'
+2021-06-24 22:51:50,612 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-24 22:51:50,748 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-24 22:51:51,110 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-24 22:51:51,484 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-24 22:51:53,399 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-24 22:51:53,442 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-24 22:51:54,659 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-24 22:51:56,732 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-06-24 22:51:57,871 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-06-24 22:51:58,019 [main] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2021-06-24 22:51:58,185 [main] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2021-06-24 22:51:58,196 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:51:58,253 [main] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2021-06-24 22:51:58,254 [main] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2021-06-24 22:51:58,254 [main] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2021-06-24 22:51:58,254 [main] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2021-06-24 22:51:58,254 [main] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2021-06-24 22:51:58,255 [main] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2021-06-24 22:51:58,255 [main] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2021-06-24 22:51:59,774 [main] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2021-06-24 22:51:59,782 [main] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2021-06-24 22:51:59,789 [main] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-24 22:51:59,801 [main] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1624555319798 with initial instances count: 3
+2021-06-24 22:51:59,823 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application PAYMENT-SERVICE with eureka with status UP
+2021-06-24 22:51:59,824 [main] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1624555319824, current=UP, previous=STARTING]
+2021-06-24 22:51:59,827 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_PAYMENT-SERVICE/LAPTOP-IBR4JETC:payment-service:9191: registering service...
+2021-06-24 22:51:59,830 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9191"]
+2021-06-24 22:51:59,896 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9191 (http) with context path ''
+2021-06-24 22:51:59,897 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 9191
+2021-06-24 22:52:00,089 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_PAYMENT-SERVICE/LAPTOP-IBR4JETC:payment-service:9191 - registration status: 204
+2021-06-24 22:52:00,556 [main] INFO  com.learnjava.PaymentServiceApplication            - Started PaymentServiceApplication in 22.01 seconds (JVM running for 23.575)
+2021-06-24 22:56:58,262 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 22:59:58,331 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-24 22:59:58,493 [main] INFO  com.learnjava.PaymentServiceApplication            - Starting PaymentServiceApplication using Java 1.8.0_281 on LAPTOP-IBR4JETC with PID 8820 (E:\springboot\centralizelogging-elk-stack\payment-service\target\classes started by sheka in E:\springboot\centralizelogging-elk-stack\payment-service)
+2021-06-24 22:59:58,509 [main] INFO  com.learnjava.PaymentServiceApplication            - No active profile set, falling back to default profiles: default
+2021-06-24 23:00:01,363 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-24 23:00:01,717 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 331 ms. Found 1 JPA repository interfaces.
+2021-06-24 23:00:02,868 [main] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=6d3fd36f-6b76-3783-8a6d-443e2266ae4b
+2021-06-24 23:00:04,877 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9191 (http)
+2021-06-24 23:00:04,891 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9191"]
+2021-06-24 23:00:04,892 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-06-24 23:00:04,892 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-24 23:00:05,336 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-06-24 23:00:05,337 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 6532 ms
+2021-06-24 23:00:05,438 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-06-24 23:00:05,869 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-06-24 23:00:05,885 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:a4f0ddfd-bb08-4bac-8897-5d95c881dcf7'
+2021-06-24 23:00:07,061 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-24 23:00:07,183 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-24 23:00:07,534 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-24 23:00:07,901 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-24 23:00:09,321 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-24 23:00:09,336 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-24 23:00:10,470 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-24 23:00:12,574 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-06-24 23:00:13,671 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-06-24 23:00:13,807 [main] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2021-06-24 23:00:13,968 [main] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2021-06-24 23:00:13,979 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:00:14,034 [main] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2021-06-24 23:00:14,034 [main] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2021-06-24 23:00:14,034 [main] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2021-06-24 23:00:14,035 [main] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2021-06-24 23:00:14,036 [main] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2021-06-24 23:00:14,036 [main] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2021-06-24 23:00:14,037 [main] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2021-06-24 23:00:15,584 [main] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2021-06-24 23:00:15,589 [main] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2021-06-24 23:00:15,594 [main] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-24 23:00:15,605 [main] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1624555815602 with initial instances count: 3
+2021-06-24 23:00:15,623 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application PAYMENT-SERVICE with eureka with status UP
+2021-06-24 23:00:15,623 [main] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1624555815623, current=UP, previous=STARTING]
+2021-06-24 23:00:15,627 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_PAYMENT-SERVICE/LAPTOP-IBR4JETC:payment-service:9191: registering service...
+2021-06-24 23:00:15,627 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9191"]
+2021-06-24 23:00:15,695 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9191 (http) with context path ''
+2021-06-24 23:00:15,702 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 9191
+2021-06-24 23:00:15,768 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_PAYMENT-SERVICE/LAPTOP-IBR4JETC:payment-service:9191 - registration status: 204
+2021-06-24 23:00:16,389 [main] INFO  com.learnjava.PaymentServiceApplication            - Started PaymentServiceApplication in 21.1 seconds (JVM running for 23.114)
+2021-06-24 23:01:52,194 [main] INFO  com.learnjava.PaymentServiceApplication            - Starting PaymentServiceApplication using Java 1.8.0_281 on LAPTOP-IBR4JETC with PID 25160 (E:\springboot\centralizelogging-elk-stack\payment-service\target\classes started by sheka in E:\springboot\centralizelogging-elk-stack\payment-service)
+2021-06-24 23:01:52,194 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-24 23:01:52,199 [main] INFO  com.learnjava.PaymentServiceApplication            - No active profile set, falling back to default profiles: default
+2021-06-24 23:01:54,682 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-24 23:01:55,041 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 336 ms. Found 1 JPA repository interfaces.
+2021-06-24 23:01:56,000 [main] INFO  o.s.cloud.context.scope.GenericScope               - BeanFactory id=6d3fd36f-6b76-3783-8a6d-443e2266ae4b
+2021-06-24 23:01:58,404 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9191 (http)
+2021-06-24 23:01:58,432 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9191"]
+2021-06-24 23:01:58,433 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-06-24 23:01:58,434 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-24 23:01:58,950 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-06-24 23:01:58,950 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 6595 ms
+2021-06-24 23:01:59,082 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-06-24 23:01:59,595 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-06-24 23:01:59,613 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:728074d6-6d81-4e54-882e-920ad93714e3'
+2021-06-24 23:02:01,341 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-24 23:02:01,494 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-24 23:02:02,012 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-24 23:02:02,415 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-24 23:02:04,229 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-24 23:02:04,248 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-24 23:02:05,812 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-24 23:02:08,496 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-06-24 23:02:09,823 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-06-24 23:02:09,961 [main] INFO  o.s.c.netflix.eureka.InstanceInfoFactory           - Setting initial instance status as: STARTING
+2021-06-24 23:02:10,129 [main] INFO  com.netflix.discovery.DiscoveryClient              - Initializing Eureka in region us-east-1
+2021-06-24 23:02:10,140 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:02:10,188 [main] INFO  com.netflix.discovery.DiscoveryClient              - Disable delta property : false
+2021-06-24 23:02:10,188 [main] INFO  com.netflix.discovery.DiscoveryClient              - Single vip registry refresh property : null
+2021-06-24 23:02:10,188 [main] INFO  com.netflix.discovery.DiscoveryClient              - Force full registry fetch : false
+2021-06-24 23:02:10,188 [main] INFO  com.netflix.discovery.DiscoveryClient              - Application is null : false
+2021-06-24 23:02:10,188 [main] INFO  com.netflix.discovery.DiscoveryClient              - Registered Applications size is zero : true
+2021-06-24 23:02:10,189 [main] INFO  com.netflix.discovery.DiscoveryClient              - Application version is -1: true
+2021-06-24 23:02:10,189 [main] INFO  com.netflix.discovery.DiscoveryClient              - Getting all instance registry info from the eureka server
+2021-06-24 23:02:11,660 [main] INFO  com.netflix.discovery.DiscoveryClient              - The response status is 200
+2021-06-24 23:02:11,667 [main] INFO  com.netflix.discovery.DiscoveryClient              - Starting heartbeat executor: renew interval is: 30
+2021-06-24 23:02:11,672 [main] INFO  c.n.discovery.InstanceInfoReplicator               - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-24 23:02:11,684 [main] INFO  com.netflix.discovery.DiscoveryClient              - Discovery Client initialized at timestamp 1624555931681 with initial instances count: 3
+2021-06-24 23:02:11,702 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application PAYMENT-SERVICE with eureka with status UP
+2021-06-24 23:02:11,703 [main] INFO  com.netflix.discovery.DiscoveryClient              - Saw local status change event StatusChangeEvent [timestamp=1624555931703, current=UP, previous=STARTING]
+2021-06-24 23:02:11,707 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_PAYMENT-SERVICE/LAPTOP-IBR4JETC:payment-service:9191: registering service...
+2021-06-24 23:02:11,710 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9191"]
+2021-06-24 23:02:11,784 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9191 (http) with context path ''
+2021-06-24 23:02:11,799 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 9191
+2021-06-24 23:02:11,868 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient              - DiscoveryClient_PAYMENT-SERVICE/LAPTOP-IBR4JETC:payment-service:9191 - registration status: 204
+2021-06-24 23:02:12,522 [main] INFO  com.learnjava.PaymentServiceApplication            - Started PaymentServiceApplication in 23.145 seconds (JVM running for 25.126)
+2021-06-24 23:07:10,204 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:12:10,218 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:14:53,043 [http-nio-9191-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-24 23:14:53,044 [http-nio-9191-exec-10] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-06-24 23:14:53,047 [http-nio-9191-exec-10] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2021-06-24 23:14:53,180 [http-nio-9191-exec-10] INFO  com.learnjava.service.PaymentService               - Payment-Service Request : {"paymentId":0,"paymentStatus":"false","transactionId":"6f0a27b1-3874-4fbc-920f-8e586c43910d","orderId":103,"amount":8000.0}
+2021-06-24 23:17:10,226 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:17:15,642 [http-nio-9191-exec-7] INFO  com.learnjava.service.PaymentService               - paymentService findPaymentHistoryByOrderId : {"paymentId":1,"paymentStatus":"false","transactionId":"6f0a27b1-3874-4fbc-920f-8e586c43910d","orderId":103,"amount":8000.0}
+2021-06-24 23:19:45,787 [http-nio-9191-exec-5] INFO  com.learnjava.service.PaymentService               - Payment-Service Request : {"paymentId":0,"paymentStatus":"false","transactionId":"af53e8be-f838-4907-95bb-a86f58a67429","orderId":104,"amount":18000.0}
+2021-06-24 23:19:51,074 [http-nio-9191-exec-4] INFO  com.learnjava.service.PaymentService               - Payment-Service Request : {"paymentId":0,"paymentStatus":"success","transactionId":"fd379472-3da3-4ef4-8b04-0e7c6bf5df5c","orderId":104,"amount":18000.0}
+2021-06-24 23:22:10,233 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:27:10,240 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:32:10,246 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:37:10,255 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:39:23,895 [http-nio-9191-exec-3] INFO  com.learnjava.service.PaymentService               - Payment-Service Request : {"paymentId":0,"paymentStatus":"false","transactionId":"8b432850-4a20-42a9-ac47-4e294a1f36f7","orderId":105,"amount":200000.0}
+2021-06-24 23:39:29,906 [http-nio-9191-exec-2] INFO  com.learnjava.service.PaymentService               - Payment-Service Request : {"paymentId":0,"paymentStatus":"success","transactionId":"55ccf72e-5aff-445c-83ef-8045465b9367","orderId":105,"amount":200000.0}
+2021-06-24 23:42:10,263 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:47:10,277 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:52:10,291 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration
+2021-06-24 23:57:10,304 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver                - Resolving eureka endpoints via configuration

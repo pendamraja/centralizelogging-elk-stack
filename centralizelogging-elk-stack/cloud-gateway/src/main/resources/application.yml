@@ -1,0 +1,34 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  application:
+    name: GATEWAY-SERVICE
+  resilience4j:
+    circuitbreaker:
+      instances:
+        orderService:
+          registerHealthIndicator: true
+          eventConsumerBufferSize: 10
+          automaticTransitionFromOpenToHalfOpenEnabled: true
+          failureRateThreshold: 50
+          minimumNumberOfCalls: 5
+          permittedNumberOfCallsInHalfOpenState: 3
+          slidingWindowSize: 10
+          waitDurationInOpenState: 5s
+          slidingWindowType: COUNT_BASED
+
+server:
+  port: 8989
+
+management:
+  health:
+    circuitbreakers:
+      enabled: true
+    endpoints:
+        web:
+          exposure:
+            include: health
+    endpoint:
+          health:
+            show-details: always

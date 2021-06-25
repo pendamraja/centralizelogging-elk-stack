@@ -1,0 +1,13 @@
+server:
+  port: 9191
+spring:
+  cloud:
+    config:
+      enabled: false
+  zipkin:
+    base-url: http://localhost:9411/
+  h2:
+    console:
+      enabled: true
+  application:
+    name: payment-service
